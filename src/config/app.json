@@ -1,0 +1,44 @@
+{
+  "server": {
+    "port": 3000
+  },
+  "keys": {
+    "appSecret": "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJujjNO60eZu3GUU+1Tx9ruhVzlbjlpfZlvROONBqwj6jOgd86dTPtbfvBZO7dKlwiIikLJNP6tpFeNohxO6EcsCAwEAAQ",
+    "firebaseAdmin": {},
+    "firebase": {},
+    "twilio": {},
+    "twitter": {
+      "consumer": {},
+      "token": {},
+      "endpoints": {
+        "request_token": {
+          "url": "https://api.twitter.com/oauth/request_token",
+          "method": "POST"
+        },
+        "access_token": {
+          "url": "https://api.twitter.com/oauth/access_token",
+          "method": "POST"
+        }
+      }
+    }
+  },
+  "buckets": {
+    "profile": "tagfer-inc_profile-images"
+  },
+  "imageFormat": {
+    "image/jpeg": "jpg",
+    "image/png": "png"
+  },
+  "dbPath": {
+    "users": "users",
+    "profiles": "profiles"
+  },
+  "loki": {
+    "verificationTTL": 300000,
+    "verificationTTLClear": 1800000
+  },
+  "baseURL": "https://tagfer-inc.firebaseapp.com",
+  "referralTokens": 50,
+  "defaultProfileName": "Public Profile",
+  "suggestedUsersCount": 20
+}

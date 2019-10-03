@@ -1,0 +1,41 @@
+{
+  "name": "tagfer-server",
+  "version": "0.0.0",
+  "description": "Express server hosts the business logic behind tagfer.inc",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mihilmy/tagfer-server.git"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "@mihilmy, @oonyeje",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mihilmy/tagfer-server/issues"
+  },
+  "homepage": "https://github.com/mihilmy/tagfer-server#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "express": "^4.16.4",
+    "fast-crc32c": "^1.0.4",
+    "firebase": "^5.7.0",
+    "firebase-admin": "^6.4.0",
+    "lodash": "^4.17.11",
+    "lokijs": "^1.5.5",
+    "oauth-1.0a": "^2.2.5",
+    "phone": "^2.3.0",
+    "qrcode": "^1.3.2",
+    "request": "^2.88.0",
+    "twilio": "^3.25.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "faker": "^4.1.0"
+  }
+}
